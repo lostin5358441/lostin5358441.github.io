@@ -3,22 +3,30 @@ const memoryGen = document.getElementById("memory-gen")
 const memoryPic = document.getElementById("memory-pic")
 
 var array = [ 
-    {memory: 'when you confronted me (only) two years later about a pencil I stole from you', pic: ''}, 
+    {memory: 'when you confronted me (only) two years later about a pencil I stole from you', pic: 'media/confrontation.jpg'}, 
     {memory: 'noodle soup without noodles yum (never letting this go)', pic: 'media/noodles.png'},
-    {memory: 'when we did that i-STEM hydraulics presentation together and did surprisingly well', pic: ''},
-    {memory: 'when we went back and forth over text in yr 9 creating acronyms for at least two hours', pic: ''},
-    {memory: 'when we sat together on a bench outside at night at SCG retreat', pic: ''},
+    {memory: 'when we did that i-STEM hydraulics presentation together and did surprisingly well??', pic: 'media/confused.png'},
+    {memory: 'when we went back and forth over text in yr 9 creating acronyms for at least two hours...', pic: ''},
+    {memory: 'that night at SCG retreat when we went and sat on a bench outside haha (helpful image below)', pic: 'media/bench.jpg'},
     {memory: 'bröther may I have some oats', pic: 'media/oats.jpg'},
-    {memory: 'when we watched kpop mvs in the library (or I was forced to, but I did it for friendship)', pic: 'media/kpop.gif'},
+    {memory: 'when we watched kpop mvs in our study periods (or I was forced to, but I did it for friendship)', pic: 'media/kpop.gif'},
     {memory: 'soysacer', pic: 'media/soysacer.jpg'},
     {memory: 'when we did practical care together (aw)', pic: ''},
-    {memory: 'intermission: thank you for letting me rant to you about useless things <3', pic:''},
-    {memory: 'when I wrote you that socialisation word doc for your international science fair thing LOL', pic:''},
+    {memory: 'intermission: thank you for letting me rant to you about useless things <3 (and sorry)', pic:'media/mental.jpg'},
+    {memory: 'when I wrote you that socialisation word doc for your international science fair thing LOL', pic:'media/socialisation.jpg'},
     {memory: 'I never told you this (I think) but whenever christianity gets too hard for me I think about that time at KYCK 2019 when you came outside with me for the "declare your commitment" thing and I remember you crying and then I get emotional lmao', pic:''},
     {memory: 'when we used to bash our chests twice and then throw peace signs', pic: ''},
-    {memory: '"if you say so"', pic:''},
-    {memory: 'sfhloop (idk man ask me what this is and i will explain)', pic:''},
+    {memory: '"if you say so"', pic:'media/pigeon.jpg'},
+    {memory: 'sfhloop (idk man ask me what this is and i will explain)', pic:'media/sideeye.jpg'},
     {memory: 'OUR PLANE AWW', pic:'media/plane.jpg'},
+    {memory: 'photo dump 1', pic: 'media/heart.jpg'},
+    {memory: 'fabulous laptop drawings', pic: 'media/drawing.jpg'},
+    {memory: 'photo dump 2', pic:'media/malatang.jpg'},
+    {memory: 'photo dump 3', pic:'media/art.jpg'},
+    {memory: 'photo dump 4', pic:'media/birthday.jpg'},
+    {memory: 'photo dump 5', pic:'media/brunch.jpg'},
+    {memory: 'photo dump 6', pic:'media/bike.jpg'},
+    {memory: 'photo dump 7', pic: 'media/cake.jpg'},
 ]; 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -46,11 +54,6 @@ function generateMem() {
     }
     var selection = array[count];
 
-    /*
-    const rand = Math.floor(Math.random()*array.length)
-    var selection = array[rand];
-    */
-
     memoryGen.innerHTML = selection["memory"]; 
     memoryPic.src = selection["pic"];
 
@@ -65,9 +68,6 @@ genButton.addEventListener("click", function () {
 
     memoryGen.classList.add("fade-in");
     memoryPic.classList.add("fade-in"); 
-    /*setTimeout(function () {
-      memoryGen.classList.remove("fade-in");
-    }, 10000);*/
 });
 
 var mySong = document.getElementById("mySong");
