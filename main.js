@@ -18,7 +18,7 @@ var array = [
     {memory: '"if you say so"', pic:'media/pigeon.jpg'},
     {memory: 'sfhloop (idk man ask me what this is and i will explain)', pic:''},
     {memory: 'OUR PLANE AWW', pic:'media/plane.jpg'},
-    {memory: 'fabulous laptop drawings', pic: 'media/drawing.jpg'},
+    {memory: 'fabulous laptop drawings', pic: 'media/drawing.jpg'}
 ]; 
 
 document.addEventListener('DOMContentLoaded', function() {
