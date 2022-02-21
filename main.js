@@ -14,19 +14,11 @@ var array = [
     {memory: 'when we did practical care together (aw)', pic: ''},
     {memory: 'intermission: thank you for letting me rant to you about useless things <3 (and sorry)', pic:'media/mental.jpg'},
     {memory: 'when I wrote you that socialisation word doc for your international science fair thing LOL', pic:'media/socialisation.jpg'},
-    {memory: 'I never told you this (I think) but whenever christianity gets too hard for me I think about that time at KYCK 2019 when you came outside with me for the "declare your commitment" thing and I remember you crying and then I get emotional lmao', pic:''},
     {memory: 'when we used to bash our chests twice and then throw peace signs', pic: ''},
     {memory: '"if you say so"', pic:'media/pigeon.jpg'},
-    {memory: 'sfhloop (idk man ask me what this is and i will explain)', pic:'media/sideeye.jpg'},
+    {memory: 'sfhloop (idk man ask me what this is and i will explain)', pic:''},
     {memory: 'OUR PLANE AWW', pic:'media/plane.jpg'},
-    {memory: 'photo dump 1', pic: 'media/heart.jpg'},
-    {memory: 'fabulous laptop drawings', pic: 'media/drawing.jpg'},
-    {memory: 'photo dump 2', pic:'media/malatang.jpg'},
-    {memory: 'photo dump 3', pic:'media/art.jpg'},
-    {memory: 'photo dump 4', pic:'media/birthday.jpg'},
-    {memory: 'photo dump 5', pic:'media/brunch.jpg'},
-    {memory: 'photo dump 6', pic:'media/bike.jpg'},
-    {memory: 'photo dump 7', pic: 'media/cake.jpg'},
+    {memory: 'fabulous laptop drawings', pic: 'media/drawing.jpg'}
 ]; 
 
 document.addEventListener('DOMContentLoaded', function() {
